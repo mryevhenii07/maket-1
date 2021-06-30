@@ -1,0 +1,47 @@
+.footer__wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.footer {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__Veterinarians {
+  width: 140px;
+}
+.footer__veter_title {
+  font-size: 13px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #284854;
+}
+.footer__Veterinarians a {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 19px;
+}
+.footer__link,
+a {
+  display: flex;
+}
+.footer__link,
+a:hover {
+  color: rgb(65, 65, 241);
+}
+.footer__link {
+  margin: 0 auto;
+  width: 1440px;
+}
+.footer__link a {
+  margin-right: 40px;
+}
+.footer__link a:first-child {
+  margin-left: 120px;
+}
+.footer__indevets {
+  margin: 35px 0 40px 120px;
+}
